@@ -7,13 +7,21 @@ export const Input = styled.input`
   border-radius: 30px;
   background-color: rgba(255, 255, 255, 0.5);
   border: 1px solid #fff;
+  padding-left: 20px;
+  margin: 0 auto;
+
+  ::placeholder{
+    color: #fff;
+  }
+  :focus{
+    outline: none;
+  }
 `;
 
 export const ADInput = styled(Input)`
   color: #f79489;
   background-color: #fefcfb;
   border: 1px solid #fadcd9;
-  padding-left: 20px;
 
   ::placeholder{
     color: #f79489;

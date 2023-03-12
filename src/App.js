@@ -40,8 +40,9 @@ function App() {
           Bringing interiors to life, understanding the person or people living
           in a home is far greater need in design.
         </p>
-        <Input type='text' placeholder='Search Furniture' />
-        <Input type='submit' />
+        <div className='center'>
+          <Input type='text' placeholder='Search Furniture' />
+        </div>
       </Main>
       <Choosing>
         <Title>Why Choosing Us</Title>
@@ -200,7 +201,7 @@ function App() {
             <h2>Support</h2>
             <ul>
               <li>
-                <a href='#' >Account</a>
+                <a href='#'>Account</a>
               </li>
               <li>
                 <a href='#'>Help</a>

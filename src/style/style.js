@@ -4,6 +4,9 @@ import img1 from '../img/image-5.png';
 import img2 from '../img/image-6.png';
 
 export const Main = styled.section`
+.center {
+  text-align: center;
+}
   nav {
     display: flex;
     flex-direction: row;
@@ -31,6 +34,7 @@ export const Main = styled.section`
   top: 0;
   left: 0;
   width: 100vw;
+  height: 1000px;
   max-height: 1000px;
   height: 80vh;
 
@@ -51,6 +55,7 @@ export const Main = styled.section`
     font-size: 18px;
     max-width: 26%;
     margin-top: 40px;
+    margin-bottom: 60px;
     line-height: 200%;
   }
 `;
